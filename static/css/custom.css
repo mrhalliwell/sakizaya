@@ -1,0 +1,17 @@
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/main.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-coffee.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-coffee-dots.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white-dots.css');
+/* banner測試 */
+@import url('https://github.com/yoyurec/logseq-banners-plugin/blob/main/src/banners.css');
+
+/* Tags */
+a.tag[data-ref] {
+  border: 1px solid currentColor;
+  background-color: var(--ct-block-reference-background);
+  padding: 0 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #D6D600;
+}
