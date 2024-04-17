@@ -103,27 +103,6 @@ span:is(.todo, .done) > :is(.marker-switch, input) { pointer-events: none; }
 /* Make block ref icon non-clickable, clicking causes a crash for some reason */
 .open-block-ref-link { pointer-events: none; }
 
-/*調整right sidebar PC端*/
-		  @media screen and (min-width: 992px) {
-		    #right-sidebar.open {
-		      width: var(--ls-left-sidebar-width) !important;
-		    }
-		  }
-		  
-		  /*平板端、移动端*/
-		  @media screen and (max-width: 992px) {
-		    /*调节移动端右侧边栏宽度*/
-		    #right-sidebar.open {
-		      width: 50vw !important;
-		    }
-		  }
-
-/*留言區置中*/
-.giscus .giscus-frame {
-  margin: 0 max(10%, 250px) 0 max(10%, 250px);
-  width: calc(100% - 2 * max(10%, 250px));
-}
-
 /*留言區置中*/
 .giscus .giscus-frame {
   margin: 0 max(10%, 250px) 0 max(10%, 250px);
