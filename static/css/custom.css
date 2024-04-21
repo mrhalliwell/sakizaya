@@ -15,3 +15,21 @@ a.tag[data-ref] {
   font-weight: 600;
   color: #D6D600;
 }
+.sidebar-item.content {
+    font-size: 14px; /* or whatever you want */
+}
+
+/*調整right sidebar PC端*/
+		  @media screen and (min-width: 992px) {
+		    #right-sidebar.open {
+		      width: var(--ls-left-sidebar-width) !important;
+		    }
+		  }
+		  
+		  /*平板端、移动端*/
+		  @media screen and (max-width: 992px) {
+		    /*调节移动端右侧边栏宽度*/
+		    #right-sidebar.open {
+		      width: 50vw !important;
+		    }
+		  }
